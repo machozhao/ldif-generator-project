@@ -1,0 +1,23 @@
+version: 1
+
+dn: erglobalid=6687442416493017133,ou=0,ou=people,erglobalid=000000000000000
+ 00000,ou=crrc,dc=com
+objectclass: erPersonItem
+objectclass: person
+objectclass: organizationalPerson
+objectclass: erManagedItem
+objectclass: inetOrgPerson
+objectclass: top
+cn: t00000001
+sn: t00000001
+ercreatedate: 201604281218Z
+erglobalid: 6687442416493017133
+erlastmodifiedtime: 201604281222Z
+erparent: erglobalid=00000000000000000000,ou=crrc,dc=com
+erpersonpassword:: ajg4eDhoRXdjQ1dwaitjTFlwNjBRdz09
+erpersonstatus: 0
+erpswdlastchanged: 201604281222Z
+ersynchpassword:: M0lBaUIxcGpuWkJSdFgwQmh6L1JEUT09
+givenname: t00000001
+uid: t00000001
+

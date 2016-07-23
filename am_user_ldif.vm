@@ -1,0 +1,11 @@
+dn: cn=$uid,secAuthority=Default,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: ePerson
+cn: $uid
+sn: $uid
+userPassword: {AES256}ogd/ncg9dxwjNCxC7mSU+Q==
+uid: $uid
+

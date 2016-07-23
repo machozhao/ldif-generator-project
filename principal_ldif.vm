@@ -1,0 +1,21 @@
+dn: principalName=$uid,cn=Users,secAuthority=Default,dc=com
+objectclass: secUser
+objectclass: eUser
+objectclass: cimManagedElement
+objectclass: top
+secLoginType: Default:LDAP
+secPwdValid: TRUE
+principalName: $uid
+secUUID: $uuid
+secHasPolicy: FALSE
+secDomainId: Default%$uid
+secDN: cn=$uid,secAuthority=Default,dc=com
+secPwdLastChanged: 20160427045626.0Z
+secAuthority: Default:
+secAcctValid: TRUE
+
+dn: cn=ResCreds,principalName=$uid,cn=Users,secAuthority=Default,dc=com
+objectClass: container
+objectClass: top
+cn: ResCreds
+

@@ -1,0 +1,2 @@
+dn: principalName=$uid
+uid: $uid
